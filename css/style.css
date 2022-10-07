@@ -1,0 +1,176 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */ 
+* { 
+    margin:0; 
+
+} 
+
+header,
+section,
+footer,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+
+body{
+    color:rgb(0, 0, 0);
+    background-color: bisque;
+    background-image: url("../assets/images/river.jpg");
+    margin:0px;
+    /*background-image:url(../assets/images/plage.jpg);*/ 
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header,nav,footer{
+    background-color: orange;
+    color: aliceblue;
+    
+
+}
+header{
+    width: fit-content;
+    width: 100%;
+}
+
+
+nav ul{
+    margin:0;
+    padding:5px;
+    color:rgb(114, 152, 152);  
+}
+nav li{
+    display:inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+nav li a:link,nav li a:visited{
+    color:aliceblue;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+nav li a:hover,nav li a:active, nav li a.current{
+    color:black
+}
+a{
+    color: crimson;
+    text-transform: none;
+}
+h1,h2,h3{
+    margin:10px;
+    text-transform:uppercase;
+    color:darkred
+}
+#main-nav{
+    width: 99.5%;
+    float: left;
+    background-color: blueviolet;
+    position: relative;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    
+}
+
+video,audio{
+    display:block;
+    margin:10px auto;
+    border:solid cornflowerblue;
+    width: fit-content;
+    border-radius: 5%;
+}
+.img-centre{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+table{
+    width: 800px;
+    margin: 10px auto;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px groove black;
+    padding: 2px 5px;
+    background-color: aqua;
+}
+
+table th, tfoot td{
+    text-transform: uppercase;
+    color: beige;
+    background-color: burlywood;
+}
+dt{
+    font-weight: bold;
+}
+td{
+    empty-cells: hide;
+}
+footer{
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+iframe{
+    display: block;
+    margin:10px auto;
+}
+fieldset{
+    width: 500px;
+    margin:20px auto;
+    border:1px solid chocolate;
+    background-color: blanchedalmond;
+}
+legend{
+    font-style: italic;
+    color: blanchedalmond;
+    margin: 0 10px;
+    padding:0 5px;
+    background-color: solid chocolate;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color:brown;
+    color:white;
+    cursor: pointer;
+}
+div.container{
+    background-color:bisque;
+    width:950px;
+    display: inline block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    
+
+
+fieldset{
+   border:solid cornflowerblue
+
+}
+
+.container{
+    background-color:bisque ;
+}
+
+.content{
+    line-height: 1.4em;
+    padding: 1Opx;
+}
+
+
+
+
